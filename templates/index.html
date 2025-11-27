@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+{% include 'snippets/navbar.html' %}
+<img src="{% static banner %}" alt="" height="100%">
+{{judul}}
+</br>
+{{isi}}
+{% endblock %}
